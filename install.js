@@ -9,10 +9,10 @@ module.exports = {
       }
     },
     {
-      method: "shell.run", 
+      method: "fs.download",
       params: {
-        message: "curl -s -LJO https://huggingface.co/IAHispano/applio/resolve/main/env.zip -o env.zip",
-        path: "applio"
+        uri: "https://huggingface.co/IAHispano/Applio/resolve/main/env.zip",
+        dir: "applio"
       }
     },
     {
