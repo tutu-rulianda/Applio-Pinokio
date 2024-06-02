@@ -28,8 +28,17 @@ module.exports = {
     {
       method: "shell.run",
       params: {
+        path: "applio",
+        message: [
+          "conda create --no-shortcuts -y -k --prefix env python=3.9",
+        ],
+      }
+    },
+    {
+      method: "shell.run",
+      params: {
         conda: {
-          path: "applio/env",
+          path: "env",
           python: "python=3.9"
         },
         path: "applio",

@@ -6,7 +6,7 @@ module.exports = {
       method: "shell.run",
       params: {
         conda: {
-          path: "applio/env",
+          path: "env",
         },
         path: "applio",
         message: [
