@@ -44,9 +44,9 @@ module.exports = {
         path: "applio",
         message: [
           "pip install --upgrade setuptools",
-          "pip install -r requirements.txt",
+          "#pip install -r requirements.txt",
           "pip uninstall torch torchvision torchaudio -y",
-          "pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu121",
+          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu",
         ],
       }
     },
