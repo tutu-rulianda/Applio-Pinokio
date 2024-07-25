@@ -4,7 +4,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/IAHispano/Applio applio",
+          "https://github.com/tutu-rulianda/test-repo02.git applio",
         ]
       }
     },
