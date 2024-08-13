@@ -10,7 +10,8 @@ module.exports = {
         },
         path: "applio",
         message: [
-          "python app.py",
+          # "python app.py",
+          "/bin/bash run-applio.sh",
         ],
         on: [{
           "event": "/http:\/\/\\S+/",   
