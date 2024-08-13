@@ -30,7 +30,7 @@ module.exports = {
       params: {
         path: "applio",
         message: [
-          "conda create --no-shortcuts -y -k --prefix env python=3.9",
+          "conda create --no-shortcuts -y -k --prefix env python=3.8",
         ],
       }
     },
@@ -39,7 +39,7 @@ module.exports = {
       params: {
         conda: {
           path: "env",
-          python: "python=3.9"
+          python: "python=3.8"
         },
         path: "applio",
         message: [
