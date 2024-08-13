@@ -10,6 +10,7 @@ module.exports = {
         },
         path: "applio",
         message: [
+          "export export PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0",
           "export PYTORCH_ENABLE_MPS_FALLBACK=1",
           "python app.py",
           # "/bin/bash run-applio.sh",
