@@ -10,8 +10,9 @@ module.exports = {
         },
         path: "applio",
         message: [
-          # "python app.py",
-          "/bin/bash run-applio.sh",
+          "export PYTORCH_ENABLE_MPS_FALLBACK=1",
+          "python app.py",
+          # "/bin/bash run-applio.sh",
         ],
         on: [{
           "event": "/http:\/\/\\S+/",   
