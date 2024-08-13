@@ -43,6 +43,7 @@ module.exports = {
         },
         path: "applio",
         message: [
+          "pip install pip==23.3.2",
           "pip install --upgrade setuptools",
           "pip install -r requirements.txt",
           "pip uninstall torch torchvision torchaudio -y",
